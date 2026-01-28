@@ -116,3 +116,45 @@ body {
     height: auto;
     display: block;
 }
+
+/* =========================================
+   6. INFORMATION SECTION
+   ========================================= */
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    padding: 100px;
+}
+
+.information__title{
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.information__content{
+    display: flex;
+    gap: 18px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.card__text{
+    text-align: center;
+}
+
+.card__img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
