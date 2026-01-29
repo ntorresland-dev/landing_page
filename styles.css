@@ -38,7 +38,7 @@ body {
     background-color: #3882F6;
     color: #E5E7EB;
     border: 0;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
@@ -182,10 +182,38 @@ body {
 .testimonial__author{
     align-self: flex-end;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .testimonial__quote, .testimonial__author{
     font-style: italic;
     color: #1F2937;
+}
+
+/* =========================================
+   8. CALL TO ACTION SECTION
+   ========================================= */
+
+.cta{
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.cta__title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cta__title, .cta__text{
+    color: #E5E7EB;
+}
+
+.cta__btn{
+    border: 3px solid#E5E7EB;
 }
 
