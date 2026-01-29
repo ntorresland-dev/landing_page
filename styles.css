@@ -125,7 +125,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: #1F2937;
-    padding: 100px;
+    padding: 80px 100px;
 }
 
 .information__title{
@@ -137,7 +137,7 @@ body {
 
 .information__content{
     display: flex;
-    gap: 18px;
+    gap: 20px;
 }
 
 .card{
@@ -158,3 +158,34 @@ body {
     border: 3px solid #3882F6;
     border-radius: 20px;
 }
+
+/* =========================================
+   7. TESTIMONIAL SECTION
+   ========================================= */
+.gray-bg{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__quote{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.testimonial__author{
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+.testimonial__quote, .testimonial__author{
+    font-style: italic;
+    color: #1F2937;
+}
+
