@@ -11,6 +11,7 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+    font-size: 18px;
 }
 
 /* =========================================
@@ -51,7 +52,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .header__logo {
@@ -64,8 +65,12 @@ body {
     gap: 18px;
 }
 
+.header__logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header__nav .header__link {
-    font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
 }
@@ -88,7 +93,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 50px;
 }
 
 .hero__title {
@@ -99,7 +104,6 @@ body {
 }
 
 .hero__text {
-    font-size: 18px;
     color: #E5E7EB;
     margin: 0;
 }
@@ -181,7 +185,6 @@ body {
 }
 .testimonial__author{
     align-self: flex-end;
-    font-size: 18px;
     font-weight: 700;
 }
 
@@ -197,7 +200,7 @@ body {
 .cta{
     background-color: #3882F6;
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 80px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -205,7 +208,6 @@ body {
 }
 
 .cta__title{
-    font-size: 18px;
     font-weight: 700;
 }
 
@@ -217,3 +219,10 @@ body {
     border: 3px solid#E5E7EB;
 }
 
+/* =========================================
+   8. FOOTER
+   ========================================= */
+.footer{
+    text-align: center;
+    padding: 10px 0;
+}
